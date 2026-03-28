@@ -1,0 +1,25 @@
+{
+  "name": "polkadot-sdk-11526-repro",
+  "version": "1.0.0",
+  "description": "Minimal reproduction for polkadot-sdk#11526 - BlobTooLarge error lacks size info",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "check-size": "node scripts/check-size.js",
+    "deploy": "node scripts/deploy.js",
+    "deploy:substrate": "node scripts/deploy-substrate.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@parity/hardhat-polkadot": "^0.2.7",
+    "@parity/resolc": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@polkadot/api": "^14.3.1",
+    "@polkadot/keyring": "^13.5.9",
+    "@polkadot/util-crypto": "^13.5.9",
+    "ethers": "^6.16.0"
+  }
+}
