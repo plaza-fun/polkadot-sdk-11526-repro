@@ -14,7 +14,8 @@
     "@parity/hardhat-polkadot": "^0.2.7",
     "@parity/resolc": "^1.0.0",
     "dotenv": "^16.3.1",
-    "hardhat": "^2.22.0"
+    "hardhat": "^2.22.0",
+    "solc": "0.8.28"
   },
   "dependencies": {
     "@polkadot/api": "^14.3.1",
